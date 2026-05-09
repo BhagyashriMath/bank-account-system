@@ -65,18 +65,21 @@ Bank-Account-System/
 ├── BankSystem.java              # Console application main class
 ├── BankAccount.java             # Bank account model (console)
 ├── Transaction.java             # Transaction model (console)
-├── index.jsp                     # Web application UI
+├── index.jsp                    # Web application UI
 ├── WEB-INF/
 │   ├── web.xml                  # Deployment descriptor
 │   └── classes/                 # Compiled Java classes
 ├── src/
 │   └── com/bank/
 │       ├── model/
-│       │   ├── BankAccount.java      # Bank account model (web)
-│       │   └── Transaction.java      # Transaction model (web)
+│       │   ├── BankAccount.java
+│       │   └── Transaction.java
 │       └── servlet/
-│           └── BankSystemServlet.java # Request handler
-└── images/                      # Project images directory
+│           └── BankSystemServlet.java
+└── images/
+    ├── output1.png
+    ├── output2.png
+    └── output3.png
 
 ## Features
 
@@ -135,20 +138,16 @@ Bank-Account-System/
 
 ## Sample Output
 
-Account Holder: Alice
-Account Number: 101
-Date                      Description          Amount     Balance
-Sat May 09 11:15:22 IST 2026 Deposit              5000.00    5000.00
-Sat May 09 11:15:22 IST 2026 Withdrawal           -1000.00   4000.00
-Sat May 09 11:15:22 IST 2026 Transfer to 102      -1500.00   2500.00
-Final Balance: 2500.0
+# Output Screenshots
 
-Account Holder: Bob
-Account Number: 102
-Date                      Description          Amount     Balance
-Sat May 09 11:15:22 IST 2026 Received from 101    1500.00    1500.00
-Sat May 09 11:15:22 IST 2026 Deposit              2000.00    3500.00
-Final Balance: 3500.0
+## Output 1
+![Output 1](images/output1.png)
+
+## Output 2
+![Output 2](images/output2.png)
+
+## Output 3
+![Output 3](images/output3.png)
 
 ## Technology Stack
 
