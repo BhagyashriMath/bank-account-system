@@ -1,0 +1,6 @@
+*.log
+*.class
+target/
+tomcat_temp/
+apache-tomcat-*/
+.vscode/
